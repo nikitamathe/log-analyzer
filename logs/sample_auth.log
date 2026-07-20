@@ -1,0 +1,7 @@
+Jul 20 10:14:22 debian-server sshd[1234]: Accepted password for root from 192.168.1.50 port 54321 ssh2
+Jul 20 10:15:01 debian-server sshd[1250]: Failed password for invalid user admin from 10.0.0.99 port 41111 ssh2
+Jul 20 10:15:03 debian-server sshd[1250]: Failed password for invalid user admin from 10.0.0.99 port 41112 ssh2
+Jul 20 10:15:05 debian-server sshd[1250]: Failed password for invalid user admin from 10.0.0.99 port 41113 ssh2
+Jul 20 10:15:10 debian-server sshd[1260]: Connection closed by authenticating user root 10.0.0.99 port 41114 [preauth]
+Jul 20 10:20:00 debian-server systemd[1]: Started Disk Manager Service.
+Jul 20 10:22:15 debian-server kernel: [ 1024.123456] Out of memory: Kill process 2045 (mysqld) score 850 or sacrifice child
