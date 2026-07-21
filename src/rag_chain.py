@@ -45,7 +45,7 @@ def analyze_logs(user_query: str, k: int = 5):
     
     # 2. Initialize Gemini Model
     llm = ChatGoogleGenerativeAI(
-        model="gemini-1.5-flash",
+        model="gemini-3.5-flash",
         google_api_key=os.getenv("GOOGLE_API_KEY"),
         temperature=0.2,
         timeout=30,  # Fails fast after 30 seconds instead of hanging
